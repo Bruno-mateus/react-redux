@@ -19,7 +19,7 @@ function reducer(state = initialState, action:any) {
             value: state.counter.value + 1,
           },
         };
-      case "counter/incrementAmout":
+      case "counter/incrementAmount":
         return {
           ...state,
           counter: {
